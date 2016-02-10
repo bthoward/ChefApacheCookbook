@@ -1,5 +1,5 @@
 require 'spec_helper'
-# Test 3.1
+# Test 3
 describe 'apache::default' do
   describe port(80) do
     it {should be_listening }
